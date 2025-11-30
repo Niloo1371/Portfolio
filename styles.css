@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background: #fafafa;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #0077cc;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        margin-right: 10px;
+    }
+}
